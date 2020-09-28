@@ -1,0 +1,74 @@
+---
+title: "The study to assess the relationship between Population density and assault rate"
+author: "Xinyu Wang"
+date: "September 25, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#### ABSTRACT
+
+To investigate the association that exists between the population density and the assault level, the study used the census neighborhood crime data from the Toronto Open Data portal. There exists a positive relationship between the population level and the assault rate, and as the population increases, the assault rate increases in a similar manner.
+
+#### INTRODUCTION
+
+The current study has used only the graphical procedure in determining the association between the population density and the assault level using 2019 demographic and assault data sourced from the Toronto data portal. From the study findings, it has been established that the population level has a positive upward effect on the assault rate. The findings are consistent with a parallel study by Sampson (1986),  where he confirmed and concluded that traditional sociological concerns with economic stratification, as cities characterized by racial income inequality, poverty, and low occupational status, were found to have significantly higher rates of robbery and homicide. 
+
+However, this current study has used the graphical method to achieve its objective, this was not enough evidence to generalize to the entire population, and therefore, there is a need for the future use of statistical, empirical methods such as regression and multilevel models to arrive at reliable findings that can be extended to the population based on the sample data. 
+
+#### HYPOTHESIS
+
+*H1 = There is no relationship between the population level and the assault level*   
+vs  
+*H2 = There is a relationship between the population level and the assault level*
+
+#### DATA ANALYSIS
+
+To test the hypotheses that the population density has a positive effect on assault rate, the graphical visualization method is used to determine the association between the population level and the assault rate in 2019 from data of neighborhood crime rates in the Toronto Open data portal. The data is analyzed using the R-software, and the results and outputs are as shown below. From the histogram below shows the population density of neighborhoods; from the graph, it can be seen that averagely most of the sites had a population of 15000 persons. Meanwhile, the histogram of average assaults shows that the overall average assault rate is recorded to be approximately 200 cases.
+
+#### FINDINGS
+
+![](pic1.png)
+
+The line graph in the figure above shows the correlation between the average assault level and population density, from the graph, there is a depicted linear trend between the two variable, and this would imply that as the population density increases, the assault rate increases in a similar trend for the general neighborhoods used in the study.
+
+#### CONCLUSION
+From the plotted graph above, it can be evident that the two variables, population-level and assault rate, both have a positive association, indicated by a linear trend. Implying that as the population increases, the rate of assault also increases. This finding is in line with the findings by Lipton et al. (2002) in their study of the spatial dynamics of violence and alcohol outlets. They converged on the conclusion that population density has a direct effect on violence rates. The conclusion is the population density and assault rates have a positive relationship with each other.
+
+#### FURTHERMORE
+The study has used the graphical correlation procedure to achieve its intended objective, but this could not bring a clear and broad picture of the relationship statistically. Therefore the study has created a void for future researchers to deploy other statistical, empirical methods such as regression and multilevel models to discern the effects of population density and the assault level in different environmental factors in play, unlike the current study that has used the data from different towns and used them as one without disaggregation. This separation of environmental factors could help in comparison among countries.
+
+
+#### REFERENCES
+
+- Stephenson, Laura B; Harell, Allison; Rubenson, Daniel; Loewen, Peter John, 2020, '2019 Canadian Election Study - Online Survey', https://doi.org/10.7910/DVN/DUS88V, Harvard Dataverse, V1
+
+- Paul A. Hodgetts and Rohan Alexander (2020). cesR: Access the CES Datasets a Little Easier.. R package version 0.1.0.
+
+- R Core Team (2020). R: A language and environment for statistical computing. R, Foundation for Statistical Computing, Vienna, Austria. URL, https://www.R-project.org/.
+
+- Wickham et al., (2019). Welcome to the tidyverse. Journal of Open Source Software, 4(43), 1686,
+  https://doi.org/10.21105/joss.01686
+  
+- Hadley Wickham, Jim Hester and Winston Chang (2020). devtools: Tools to Make Developing R Packages Easier. https://devtools.r-lib.org/,https://github.com/r-lib/devtools.
+
+- JJ Allaire and Yihui Xie and Jonathan McPherson and Javier Luraschi and Kevin Ushey and Aron Atkins and
+  Hadley Wickham and Joe Cheng and Winston Chang and Richard Iannone (2020). rmarkdown: Dynamic Documents for
+  R. R package version 2.3. URL https://rmarkdown.rstudio.com.
+  
+- Yihui Xie and J.J. Allaire and Garrett Grolemund (2018). R Markdown: The Definitive Guide. Chapman and
+  Hall/CRC. ISBN 9781138359338. URL https://bookdown.org/yihui/rmarkdown.
+  
+- Kvalseth, J. O. (1977). A note on the effects of population density and unemployment on urban crime. Criminology, 15(1), 105-110.
+
+- Lipton, R., & Gruenewald, P. (2002). The spatial dynamics of violence and alcohol outlets. Journal of studies on alcohol, 63(2), 187-195.
+
+- Park, M., & Stokowski, P. A. (2009). Social disruption theory and crime in rural communities: Comparisons across three levels of tourism growth. Tourism Management, 30(6), 905-915.
+
+- Raphael, S., & Winter-Ebmer, R. (2001). Identifying the effect of unemployment on crime. The Journal of Law and Economics, 44(1), 259-283.
+
+- Sampson, R. J. (1986). Crime in cities: The effects of formal and informal social control. Crime and justice, 8, 271-311.
+
